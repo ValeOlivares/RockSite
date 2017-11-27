@@ -1,0 +1,58 @@
+body {
+	margin: 0 auto;
+  font-family: 'Quicksand', sans-serif;
+}
+
+header{
+  background-color: #373C42;
+  color: #fff;
+}
+
+.mainImg{
+  background-image: url(../img/header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  height: 37em;
+  z-index: 1;
+  color: #fff;
+  vertical-align: middle;
+}
+
+.tittle{
+  text-align: center;
+  font-size:50px;
+  z-index: 2;
+  margin-top: 200px; 
+}
+
+.rock{
+  text-align: center;
+  font-size:40px;
+}
+
+.firstParragraph, .secondParragraph, .thirdParragraph{
+  display: flex;
+  justify-content: center;
+}
+
+.firstImg, .secondImg, .thirdtImg{
+  border-radius: 50%;
+  width: 300px;
+  margin: 50px;
+}
+
+.tittles{
+  padding: 20px;
+}
+
+.parragraph{
+  text-align: center;
+  width: 300px;
+}
+
+footer {
+  background-color: #373C42;
+  color: #fff;
+  text-align: center;
+}
